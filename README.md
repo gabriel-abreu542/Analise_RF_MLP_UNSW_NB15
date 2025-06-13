@@ -14,14 +14,18 @@ O objetivo principal do projeto é analisar as características do dataset UNSW-
 ## Estrutura do Projeto
 
 - `analise_precisao2_UNSW15`
-  - Limpeza e normalização dos dados (MinMax e Z-Score).
+  - Limpeza e normalização dos dados (MinMax e Z-Score);
   - Avaliação de desempenho dos modelos MLP e Random Forest, com e sem normalização, de identificar a classe de ataque cada registros.
 - `Analise_binaria_UNSW15`
-  - Mesmos processos da analise multiclass, mas avaliando a capacidade dos modelos de apenas distinguir os registros como ataque ou comportamento normal
+  - Mesmos processos da analise multiclass, mas avaliando a capacidade dos modelos de apenas distinguir os registros como ataque ou comportamento normal.
 - `Analise_PCA_UNSW15`
   - Script de aplicação do PCA e análise de importância das features do UNSW-NB15.
 - `resultados/`
   - Resultados quantitativos e gráficos gerados durante os experimentos.
+- `UNSW_NB15`
+  - Datasets de treino e de teste do UNSW-NB15;
+  - Lista de features dos datasets;
+  - OBSERVAÇÃO: dados compactados em um arquivo .zip para serem adicionados ao repositório, que precisa ser descompactado para a execução dos testes.
 
 ## Técnicas Utilizadas
 
